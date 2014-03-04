@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds-config>
+	<pool>
+		<type>mysql</type>
+		<name>fw</name>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://localhost:3306/fw</url>
+		<username>root</username>
+		<password>gary</password>
+		<maxconn>2</maxconn>
+		<maxsize>3</maxsize>
+	</pool>
+	<pool>
+		<type>oracle</type>
+		<name>orcl</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@192.168.1.220:1521:orcl</url>
+		<username>ydjw</username>
+		<password>ydjw</password>
+		<maxconn>100</maxconn>
+		<maxsize>3</maxsize>
+	</pool>
+</ds-config> 
